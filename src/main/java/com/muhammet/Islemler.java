@@ -8,7 +8,7 @@ public class Islemler {
 
     public double bolme(int a, int b) {
         if(b==0)
-            throw new ArithmeticException("Bölen 0 olamaz");
+            throw new ArithmeticException("Bolen 0 olamaz");
         return a / b;
     }
 
